@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+    background-color: #f4f4f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbarParent {
+    background-color: #eaeaea;
+    color: #57568f;
+    font-size: 20px;
+    padding: 20px 30px;
+}
+#navbarParent {
+
+    display:flex;
+    justify-content: center;
+}
+
+.logo {
+    align-items:flex-start;
+    padding: 0%, 10%;
+    width: 3%;
+}
+
+
+a {
+    width:20%;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    color:#7675bb;
+}
+
+#info {
+   display: flex;
+   justify-content: space-between;
+   border: 0% solid;
+   background-color: #fafafa;
+   padding-top: 50px;
+   padding-right: 10px;
+   padding-bottom: 50px;
+   padding-left: 40px;
+   border-radius: 10%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.left {
+    flex-direction: row;
+    padding-left: 5%;
+    padding-top: 3%;
+    color: #57568f;
+}
+
+.right {
+    flex-direction: column;
+    padding-right: 8%;
+}
+
+.al {
+    font-size: 3rem;
+}
+
+.school {
+    color: #57568f ;
+}
+
+.school:hover {
+    color: #2d2d4b;
+}
+
+.descrip {
+    font-size: 130%;
+    padding-bottom: 50%;
+}
+
+.rightMe {
+    border-radius: 10%;
+}
+
+
+#bigBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0% 20% 10% 20%;
+    padding-top:10%;
+    font-size: 120%;
+    background-color: #fafafa;
+    color: #57568f;
+    margin-left: 30%;
+    margin-right: 30%;
+    bottom: 2px solid;
+    border-radius: 10%;
+}
+
